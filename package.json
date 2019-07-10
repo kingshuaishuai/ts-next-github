@@ -1,0 +1,39 @@
+{
+  "name": "ts-next-github",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "dev:start": "next start",
+    "serve": "ts-node ./src/server.ts",
+    "start": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/server.ts"
+  },
+  "author": "kingshuaishuai",
+  "license": "MIT",
+  "dependencies": {
+    "@types/antd": "^1.0.0",
+    "@types/koa": "^2.0.49",
+    "@types/koa-router": "^7.0.42",
+    "@types/next": "^8.0.5",
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "antd": "^3.20.0",
+    "babel-plugin-import": "^1.12.0",
+    "cross-env": "^5.2.0",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "next": "^8.1.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0"
+  }
+}
